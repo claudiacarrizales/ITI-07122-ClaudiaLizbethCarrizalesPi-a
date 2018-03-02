@@ -1,0 +1,155 @@
+trace ("¡BIENVENIDO AL PROGRAMA!");
+//primero definimos la información de cada registro de la persona y al último se crea el promedio
+//de las edades de las personas para comprobar si es edad no joven y por
+//último se saca la nomina del sueldo total de las puras mujeres para sabes si es mayor y meno 
+//de un rango dado 
+var sueldototal: int ;
+sueldototal=0;
+var nombre1:String = "Pérez Molina Lidia";
+var edad1:int = 20;
+var matricula1:int = 45136;
+var carrera1:String = "Ingenieria en Tecnologías de la información";
+var fechadenacimiento1:String = "25 de enero del 1998";
+var sexo1:String = "femenino";
+var sueldo1:int = 1400;
+var email1:String = "lidia@hotmail.com";
+var domicilio1:String = "Fraccionamiento del valle";
+if (sexo1=="femenino" && edad1<30) {
+	sueldototal=sueldototal+sueldo1;
+}
+
+
+var nombre2:String = "Alcocer Reynaldo";
+var edad2:int = 19;
+var matricula2:int = 35489;
+var carrera2:String = "Ingenieria en Mecatrónica";
+var fechadenacimiento2:String = "13 de marzo 1997";
+var sexo2:String = "Masculino";
+var sueldo2:int = 1800;
+var email2:String = "reynaldo@hotmail.com";
+var domicilio2:String = "Fraccionamiento chapultepec";
+if (sexo2=="femenino" && edad2<30) {
+	sueldototal=sueldototal+sueldo2;
+}
+
+var nombre3:String = "Martinez Quiroz Enrique";
+var edad3:int = 25;
+var matricula3:int = 694679;
+var carrera3: String = "Ingenieria en Sistemas automotrices";
+var fechadenacimiento3:String = "25 de enero del 1993";
+var sexo3:String = "Masculino";
+var sueldo3:int = 1550;
+var email3:String = "kike@hotmail.com";
+var domicilio3:String = "colonia Chapultepec";
+if (sexo3=="femenino" && edad3<30) {
+	sueldototal=sueldototal+sueldo3;
+}
+
+
+var nombre4:String = "Carrizales Claudia";
+var edad4:int = 30;
+var matricula4:int = 5554879;
+var carrera4:String = "Ingenieria en Manufactura";
+var fechadenacimiento4:String = "25 de enero del 1985";
+var sexo4:String = "femenino";
+var sueldo4:int = 2400;
+var email4:String = "claudia@hotmail.com";
+var domicilio4:String = "Fraccionamiento Viento Huasteco";
+if (sexo4=="femenino" && edad4<30) {
+	sueldototal=sueldototal+sueldo4;
+}
+
+
+var nombre5:String = "Echartea Juárez Ana";
+var edad5:int = 24;
+var matricula5:int = 13645796;
+var carrera5:String = "Ingenieria en Tecnologías de la información";
+var fechadenacimiento5:String = "14 de febrero del 1992";
+var sexo5:String = "femenino";
+var sueldo5:int = 1750;
+var email5:String = "echarteaak@hotmail.com";
+var domicilio5:String = "Colonia Vista hermosa";
+if (sexo5=="femenino" && edad5<30) {
+	sueldototal=sueldototal+sueldo5;
+}
+
+var nombre6:String = "Castillo Andrade Antonia";
+var edad6:int = 28;
+var matricula6:int = 1246537;
+var carrera6:String = "PYMES";
+var fechadenacimiento6:String = "03 de Octubre del 1990";
+var sexo6:String = "femenino";
+var sueldo6:int = 2000;
+var email6:String = "antonia@hotmail.com";
+var domicilio6:String = "Fraccionamiento del prado";
+if (sexo6=="femenino" && edad6<30) {
+	sueldototal=sueldototal+sueldo6;
+}
+
+
+var nombre7:String = "Rodriguez Molina Juan Pablo";
+var edad7:int = 29;
+var matricula7:int = 7894562;
+var carrera7:String = "Ingenieria en Mecatrónica";
+var fechadenacimiento7:String = "25 de Septiembre del 1989";
+var sexo7:String = "Masculino";
+var sueldo7:int = 1550;
+var email7:String = "pablor@hotmail.com";
+var domicilio7:String = "niños Heroes";
+if (sexo7=="femenino" && edad7<30) {
+	sueldototal=sueldototal+sueldo7;
+}
+
+var nombre8:String = "Carrizales Bigotes";
+var edad8:int = 23;
+var matricula8:int = 5687412;
+var carrera8:String = "Ingenieria en Manufactura";
+var fechadenacimiento8:String = "17 de diciembre del 1995";
+var sexo8:String = "Maculino";
+var sueldo8:int = 1250;
+var email8:String = "bigotes@hotmail.com";
+var domicilio8:String = "Fraccionamiento del bosque";
+if (sexo8=="femenino" && edad8<30) {
+	sueldototal=sueldototal+sueldo8;
+}
+
+
+var nombre9:String = "Sánchez Olvera Fernando";
+var edad9:int = 34;
+var matricula9:int = 2456875;
+var carrera9: String = "Ingenieria Civil";
+var fechadenacimiento9: String = "15 de mayo del 1984";
+var sexo9:String = "Masculino";
+var sueldo9:int = 1800;
+var email9:String = "fernando@hotmail.com";
+var domicilio9:String = "san luisito";
+if (sexo9=="femenino" && edad9<30) {
+	sueldototal=sueldototal+sueldo9;
+}
+
+
+var nombre10:String = "Cruz Cordova Rendón";
+var edad10:int = 20;
+var matricula10:int = 4458641;
+var carrera10:String = "Ingenieria en Sistemas Automotrices";
+var fechadenacimiento10: String = "02 de Abril del 1998";
+var sexo10:String = "Masculino";
+var sueldo10:int = 1820;
+var email10:String = "rendon@hotmail.com";
+var domicilio10:String = "Revolución verde";
+if (sexo10=="femenino" && edad10<30) {
+	sueldototal=sueldototal+sueldo10;
+}
+
+if (sueldototal>10000 && sueldototal<50000){
+	trace ("el sueldo total es", sueldototal);
+}
+
+var promedioedades: int = (edad1+edad2+edad3+edad4+edad5+edad6+edad7+edad8+edad9+edad10)/10;
+trace (promedioedades);
+
+if (promedioedades>23){
+	trace ("EDAD NO JOVEN");
+}
+
+trace ("CLAUDIA lIBETH CARRIZALES PIÑA");
